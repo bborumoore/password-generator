@@ -5,6 +5,6 @@ The User is intially presented with a screen that holds a text box and a "Genera
 
 Upon selecting the desired parameters, a password will be generated in the text box and be available for the user to copy.
 
-Here is a link for the deployed application:
+Here is a link for the deployed application: https://bborumoore.github.io/password-generator/
 
 Here is a screenshot of the deployed application:
