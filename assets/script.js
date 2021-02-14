@@ -15,12 +15,12 @@ function generatePassword() {
   let passLength = 0;
 
   // First, we prompt the user for desired length of password, and ensure user input it within defined range. Stops function if user selects 'Cancel'
-  while(passLength < 16 || passLength > 128){
-    passLength = prompt("How many characters would you like in your password? (16-128 characters allowed): "); 
+  while(passLength < 8 || passLength > 128){
+    passLength = prompt("How many characters would you like in your password? (8-128 characters allowed): "); 
     console.log(passLength);
     if(passLength === null) {
       return "No Password Generated";
-    } else if(passLength < 16 || passLength > 128) {
+    } else if(passLength < 8 || passLength > 128) {
         alert("Please enter a valid length \n(Somewhere between 16 and 128 characters)");        
     }       
   }
@@ -66,6 +66,14 @@ function generatePassword() {
     passHolder += charSet.charAt(Math.floor(Math.random() * charSet.length));
   }
   console.log(passHolder);
+
+
+  // Verify that the password meets all the selected criteria - I ended up scrapping this project for now.
+//  function validatePassword() {
+//    if(useLower) {
+     
+//    }
+//  }
 
   alert("We've generated you're password!  You'll find it in the text box below.");
       return passHolder;
