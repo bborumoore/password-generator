@@ -7,4 +7,6 @@ Upon selecting the desired parameters, a password will be generated in the text 
 
 Here is a link for the deployed application: https://bborumoore.github.io/password-generator/
 
+Here is a link for the repository: https://github.com/bborumoore/password-generator
+
 Here is a screenshot of the deployed application:
