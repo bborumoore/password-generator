@@ -9,4 +9,4 @@ Here is a link for the deployed application: https://bborumoore.github.io/passwo
 
 Here is a link for the repository: https://github.com/bborumoore/password-generator
 
-Here is a screenshot of the deployed application:
+Here is a screenshot of the deployed application: ![Password Generator Box](assets/images/PassGen.png?raw=true "Screenshot of live site")
